@@ -10,14 +10,16 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808;
+    background: rgb(0, 0, 0);
     color: #fff;
 }
 
+
+/* ---------------side menu --------- */
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.png);
+    background-image: url(images/background1.png);
     background-size: cover;
     background-position: center; 
 
@@ -34,9 +36,33 @@ nav{
     flex-wrap: wrap;
 }
 
-.logo{
-    width: 140px;
+
+/* --------------logo------------ */
+.logo1{
+    color: #3cf91b;
+    font-size: 50px;
 }
+
+.logo2{
+    color: #f346c8;
+    font-size: 50px;
+}
+
+.logo3{
+    color: #4174e1;
+    font-size: 50px;
+}
+
+.logo4{
+    color: #f346c8;
+    font-size:50px;
+}
+
+.logo5{
+    color: #3cf91b;
+    font-size: 50px;
+}
+
 
 nav ul li{
     display: inline-block;
@@ -221,12 +247,17 @@ nav ul li a:hover::after{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    height: 880 px;
 }
 .work img{
     width: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+}
+.work-img{
+    width: 100%;
+    height: 990 px;
 }
 
 .layer{
@@ -353,7 +384,7 @@ form .btn2{
 }
 
 
-/* --------------------css for small screen------------ */
+/* --------------------mediaquery --> css for small screen------------ */
 
 nav .fas{
     display: none;
